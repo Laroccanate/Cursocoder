@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Larocca - c24825</title>
+    <!-- LOGO EN PESTANA -->
+    <link rel="shortcut icon" href="../assets/img/logo_nate.png">
+    <!-- FIN LOGO EN PESTANA -->
+    <!-- LINKEAR NORMALIZE CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- FIN NORMALIZE CSS -->
+    <!-- LINK ANIMACION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- FIN LINK ANIMACION -->
+    <!-- LINKEAR FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- FIN FONTS GOOGLE -->
+    <!-- LINKEAR ARCHIVO EXTERNO CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- FIN ARCHIVO EXTERNO CSS -->
+</head>
+
+<body>
+    <div class="indexdiv--grid">
+        <!-- INICIO ENCABEZADO -->
+        <header>
+            <!-- LOGO -->
+            <div class="logo wow animate__animated animate__fadeInRightBig">
+                <a href="../index.html"> <img src="../assets/img/logo_nate.png" alt="logo"></a>
+            </div>
+            <!-- CIERRRE LOGO -->
+            <!-- INICIO NAV -->
+            <nav class="header--nav">
+                <!-- lista con vienetas -->
+                <ul>
+                    <li class="nav--item"><a href="../index.html">Home </a></li>
+                    <li class="nav--item"><a href="biography.html">Biography</a></li>
+                    <li class="nav--item"><a href="works.html">Works</a></li>
+                    <li class="nav--item"><a href="booking.html">Booking</a></li>
+                    <li class="nav--item"><a href="join.html">Join NL Studio</a></li>
+                    <li class="nav--item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <h1>LAROCCA NATE PHOTOGRAPHY</h1>
+            </nav>
+            <!-- FIN NAV -->
+        </header>
+        <!-- CIERRE ENCABEZADO -->
+        <!-- INICIO CONTENIDO -->
+        <main class="main--center">
+            <h2 class="titular">Booking</h2>
+            <div>
+                Description <br>
+                <select name="Description" id="Description">
+                    <option value="Photo">Photo</option>
+                    <option value="Video">Video</option>
+                    <option value="PhotoVideo">Photo + Video</option>
+                </select>
+            </div>
+            <div>
+                Working day<br>
+                <select name="Working" id="Working">
+                    <option value="Studio">Studio</option>
+                    <option value="Exterior">Exterior</option>
+                    <option value="PhotoVideo">Studio + Exterior</option>
+                </select>
+            </div>
+            <div>
+                Month<br>
+                <select name="Month" id="Month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <div>
+                Tell something about your idea: <br>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="Email">
+                    <input placeholder="Email:" type="text" name="" id="email">
+                    <input type="submit" value="Submit">
+                </label>
+            </div>
+            <div>
+                <h5>We will send you the budget via email</h5>
+            </div>
+        </main>
+        <!-- FIN DE CONTENIDO -->
+        <!-- APERTURA FOOTER -->
+        <footer class="wow animate__animated animate__bounceInUp">
+            <div>
+                <h3>Follow us</h3>
+                <a href="../index.html"><img src="../assets/img/logo_nate.png" alt="logoPie"></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><img a src="../assets/img/logo_fb.png"
+                        alt="logoFacebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/logo_ig.png"
+                        alt="logoInstagram"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../assets/img/logo_tw.png"
+                        alt="logoTwitter"></a>
+            </div>
+            <div class="div--footer">
+                <hr>
+                <h6>All Rights Reserved - Photography is under copyright</h6>
+            </div>
+        </footer>
+        <!-- CIERRE FOOTER -->
+        <!-- LINKE LOGO WHATTSAPP -->
+        <a href="https://www.whatsapp.com/" target="_blank">
+            <img class="logo--whats" src="https://img.icons8.com/fluency/96/000000/whatsapp.png" /></a>
+        <!-- FIN LOGO WHATSAPP -->
+    </div>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

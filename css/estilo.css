@@ -1,0 +1,361 @@
+
+selectora{
+	propiedas:  valor;
+}
+
+/*RESET*/
+
+*{
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}	
+
+article{
+	text-align: center;
+}
+
+
+/*NAV*/
+/*para un id anteponer un hastag */
+.titular{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: 1.5rem 0;
+	letter-spacing: 3px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+/*modificacion de listas*/
+li{
+	list-style-type: none;
+}
+
+/*modificar enlaces*/
+a{
+	color: blue;font-size: 20px;
+
+	text-decoration: none;	
+}
+
+a:hover{
+	color: lightblue;
+}
+
+
+
+nav {
+	background-image: url("../assets/img/fondo_nav.jpeg");
+	height: 270px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+	margin-bottom:50px;
+	margin-top: -20px;
+}
+
+
+
+.nav--item{
+	display: inline;
+	font-size: 30px;
+}
+
+.header--nav h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+.header--nav ul{
+		font-size: 50px;
+		text-align: right;
+		letter-spacing: 3px	
+}
+
+.header--nav ul li{
+	padding-right: 20px;
+}
+
+.div--iframe{
+	text-align: center;
+}
+
+
+footer{
+	margin-top: 150px;
+}
+
+footer div{
+	width: 20px;
+	display: inline;
+}
+
+
+.div--imagen img{
+	width: 800px;
+	border: solid	1px black;
+	margin: 100px;
+
+
+}
+
+.logo--whats{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 80px;
+}
+
+footer div a img{
+	width: 80px;
+}
+
+.main--center{
+	text-align: center;
+}
+
+h6{
+	text-align: center;
+}
+.img--bio{
+	margin-top: 100px;
+	margin-bottom: 20px;
+	content: 50px;
+	width: 500px;
+
+}
+
+.div--contact{
+	margin: 70px 0px 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly
+	}
+
+.iframe--contact{
+	width: 1200px;
+	margin-top: 50px;
+}
+
+.article--index{
+	margin: 200px 0px 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly
+
+}
+
+.article--bio{
+	text-align: center;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.div--join{
+	margin: 70px 0px 30px;
+	display: flex;
+	justify-content: space-evenly
+}
+
+
+.div--booking article table{
+		margin-top: 100px;
+}
+
+
+.main--join{
+	background-repeat: no-repeat;	
+	background-size: cover;
+	width: 100%;
+	margin: 0px;
+}
+
+
+.div--iframeworks iframe{
+	margin: 100px 0px 100px;
+
+}
+
+.div--iframeworks{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	width: 100%;
+}
+
+
+.header--nav h1{
+	font-weight: bold;
+	text-align: center;
+}
+
+.header--nav h1{
+	text-align: center;
+}
+
+.logo img{
+	margin-bottom: -35px;
+	margin-left: 5px;
+}
+
+
+
+
+.indexdiv--grid{
+	display: grid;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer";
+	grid-template-columns: 100% ;
+	grid-template-rows: auto auto auto;
+
+}
+
+header{
+	grid-area: header;
+	width: 100%;
+}
+
+main{
+	grid-area: main;
+}
+
+footer{
+	grid-area: footer;
+}
+
+
+
+
+/* MEDIA QUERIE MOBILE */
+@media only screen and (max-width: 768px) {
+	.maindiv--grid img{
+		width: 100%;
+		margin: 0px;
+	}
+	.mainif--grid iframe{
+		width: 100%;
+		margin: 0px;
+	}
+	.div--iframeworks{
+		display: flex;
+		flex-direction: column;
+	}
+	.indexdiv--grid{
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"main"
+		"footer";
+		grid-template-columns: 100% ;
+		grid-template-rows: auto auto auto;
+		}	
+	.div--contact{
+		display: flex;
+		flex-direction: column;
+	}	
+	.nav--ul{
+		padding: -20px;
+		}
+		nav {
+			background-image: url("../assets/img/fondo_nav.jpeg");
+			height: 75%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+				
+			margin-bottom:50px;
+			margin-top: -20px;
+		}
+	h1{
+		margin-top: 1px;
+	}
+	nav ul{
+		margin-bottom: 10px;
+	}
+	.article--index{
+		margin: 100px 0px 10px;
+	}
+	main{
+		margin: .2cm;
+	}
+	.titular--jan{
+		padding: 0 0.6cm 0;
+
+	}
+}
+
+
+
+
+/* MEDIA QUERIE TABLET */
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+	.maindiv--grid img{
+		width: 100%;
+		margin: 0px;
+	}
+	.mainif--grid iframe{
+		width: 100%;
+		margin: 0px;
+	}
+	.div--iframeworks{
+		display: flex;
+		flex-direction: column;
+	}
+	.indexdiv--grid{
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"main"
+		"footer";
+		grid-template-columns: 100% ;
+		grid-template-rows: auto auto auto;
+	
+	}	
+	.div--contact{
+		display: flex;
+		flex-direction: column;
+	}	
+	
+	.nav--ul{
+		padding: -20px;
+		}
+		nav {
+			background-image: url("../assets/img/fondo_nav.jpeg");
+			height: 250px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+				
+			margin-bottom:50px;
+			margin-top: -20px;
+		}
+	h1{
+		margin-top: 1px;
+	}
+	nav ul{
+		margin-bottom: 10px;
+	}
+	.article--index{
+		margin: 100px 0px 10px;
+	}
+	
+	main{
+		margin: .2cm;
+	
+}
+
+/* MEDIA QUERIE DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+}
